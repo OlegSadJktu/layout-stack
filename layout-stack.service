@@ -1,0 +1,12 @@
+[Unit]
+Description=MRU keyboard layout switching on Caps Lock
+PartOf=graphical-session.target
+After=graphical-session.target plasma-kglobalaccel.service
+
+[Service]
+ExecStart=%h/.local/bin/layout-stack
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=graphical-session.target
