@@ -169,3 +169,7 @@ appear in the log.
 - Key autorepeat on Caps Lock (if enabled for that key) counts as repeated
   presses.
 - Remote / TCP displays are not supported by the RECORD connection.
+
+## License
+
+[WTFPL](LICENSE). Do what you want.
